@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    background-color: #dcdcdc;
+}
+.navbar{
+    position: relative;
+}
+
+
+header{
+    display: flex;
+    padding: 5%;;
+}
+.somos-wapas{
+    width: 40%;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.somos-wapas h1, h2{
+    margin: 0px;
+}
+header img{
+    width: 80%;
+    
+}
+    
+header h2{
+    font-family: 'Roboto';
+    font-size: 64px;
+    font-weight: bold;
+}
+header h1{
+    font-family: 'Coiny';
+    font-size: 118px;
+}
+header h4{
+    font-family: 'Roboto';
+    font-size: 26px;
+}
+header p{
+    font-family: 'Roboto';
+    font-size: 32px;
+}
+
+.presentacion {
+    display: flex;
+    padding: 5%;
+    
+}
+.presentacion-1{
+    width: 40%;
+    margin-right: 10%;
+}
+.presentacion-2{
+    width: 40%;
+}
+.presentacion h3{
+    font-family: 'Roboto';
+    font-size: 34.6px;
+    font-weight: bold;
+
+}
+.presentacion p{
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: bold;
+
+}
+    
+.servicios {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-around;
+    padding: 5%; 
+}
+
+.lista-servicios{
+    width: 70%;
+        
+}
+.imagen-servicios img{
+    width: 70%;
+    margin-right: 10%;
+    
+}
+.servicios h2{
+    font-size: 26.6px;
+}
+.servicios ol{
+    font-size: 32px;
+    font-weight: 400;
+    list-style-position: inside;
+}
+.item-7 {
+    font-weight: bold;
+}
+.contacto{
+    display: flex;
+    padding: 10%;
+}
+.contacto h3{
+    color: white;
+    font-size: 68px;
+    font-family: 'Roboto';
+    
+}
+.fondo-negro{
+    background-color: black;
+}
+.contacto p{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 44px;
+}
+form {
+    margin: auto;
+    width: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    height: 40px;
+    margin-bottom: 8px;
+}
+input, textarea {
+    width: 100%;
+}
+.boton {
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+.redes{
+    font-family: 'Roboto';
+    font-size: 33px;
+    color: #808080;
+    display: flex;
+    justify-content: space-around;
+      
+        
+}
+footer{
+    background-color: #fcee21;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+    
+}
+footer h5{
+    font-family: 'Coiny';
+    font-size: 44px;
+    background: transparent;
+    margin: 0%;
+    margin-right: 10%;
+}
+footer a{
+    font-family: 'Roboto';
+    font-size: 28px;
+    background-color: transparent;
+    color: black;
+    margin: 0%;
+}
+.fondo-amarillo{
+    background-color: #fcee21;
+}
